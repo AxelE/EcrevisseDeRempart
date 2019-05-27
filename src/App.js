@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tryin to master travis
+          Travis turn me mad
         </a>
       </header>
     </div>
