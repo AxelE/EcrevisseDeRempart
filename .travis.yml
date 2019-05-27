@@ -10,16 +10,11 @@ notifications:
   email:
     on_failure: change
     on_success: change
-cache:
-  yarn: true
-  directories:
-    - node_modules
 script:
   -
 before_deploy:
   - yarn build
 deploy:
-  skip_cleanup: true
   provider: firebase
   token:
     secure: $FIREBASE_TOKEN
